@@ -22,6 +22,10 @@ public class Pet extends Object{
         this.diet = diet;
     }
 
+    public void makeNoise() {
+
+    }
+
     public String getName() {
         return name;
     }
@@ -60,5 +64,16 @@ public class Pet extends Object{
 
     public void setDiet(String diet) {
         this.diet = diet;
+    }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "name='" + name + '\'' +
+                ", owner=" + owner +
+                ", noOfLegs=" + noOfLegs +
+                ", fur=" + fur +
+                ", diet='" + diet + '\'' +
+                '}';
     }
 }

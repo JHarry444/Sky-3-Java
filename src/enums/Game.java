@@ -23,7 +23,7 @@ public class Game {
         System.out.println("CALL: " + call);
         System.out.println("ACTUAL: " + actual);
 
-        return actual == call;
+        return actual.equals(call.toString().toLowerCase());
 
     }
 

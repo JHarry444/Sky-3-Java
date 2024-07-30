@@ -13,13 +13,23 @@ public class Cat extends Pet{
         super(name, owner, noOfLegs, fur, diet);
     }
 
-    public void meow() {
+    @Override
+    public void makeNoise() {
         System.out.println("MEOW");
     }
 
     public void bask() {
-
+        System.out.println("so sunny");
     }
 
-
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + this.getName() + '\'' +
+                ", owner=" + this.getOwner() +
+                ", noOfLegs=" + this.getNoOfLegs() +
+                ", fur=" + this.isFur() +
+                ", diet='" + this.getDiet() + '\'' +
+                '}';
+    }
 }

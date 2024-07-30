@@ -14,8 +14,19 @@ public class Dog extends Pet{
         super(name, owner, noOfLegs, fur, diet);
     }
 
-    public void woof() {
+    @Override
+    public void makeNoise() {
         System.out.println("BARK!");
     }
 
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + this.getName() + '\'' +
+                ", owner=" + this.getOwner() +
+                ", noOfLegs=" + this.getNoOfLegs() +
+                ", fur=" + this.isFur() +
+                ", diet='" + this.getDiet() + '\'' +
+                '}';
+    }
 }
