@@ -1,6 +1,6 @@
 package arrays.oop.inheritance;
 
-public class Pet extends Object{
+public abstract class Pet extends Object{
 
 
     private String name;
@@ -22,9 +22,7 @@ public class Pet extends Object{
         this.diet = diet;
     }
 
-    public void makeNoise() {
-
-    }
+    public abstract void makeNoise();
 
     public String getName() {
         return name;
