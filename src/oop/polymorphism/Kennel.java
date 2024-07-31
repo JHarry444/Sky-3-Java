@@ -1,6 +1,6 @@
-package arrays.oop.polymorphism;
+package oop.polymorphism;
 
-import arrays.oop.inheritance.Pet;
+import oop.inheritance.Pet;
 
 import java.util.ArrayList;
 import java.util.List;

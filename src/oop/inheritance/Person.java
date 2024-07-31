@@ -1,4 +1,4 @@
-package arrays.oop.inheritance;
+package oop.inheritance;
 
 public class Person {
 

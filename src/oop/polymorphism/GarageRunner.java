@@ -1,8 +1,8 @@
-package arrays.oop.polymorphism;
+package oop.polymorphism;
 
-import arrays.oop.polymorphism.vehicle.Bike;
-import arrays.oop.polymorphism.vehicle.Boat;
-import arrays.oop.polymorphism.vehicle.Car;
+import oop.polymorphism.vehicle.Bike;
+import oop.polymorphism.vehicle.Boat;
+import oop.polymorphism.vehicle.Car;
 
 public class GarageRunner {
 

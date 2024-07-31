@@ -1,4 +1,4 @@
-package arrays.oop.polymorphism.vehicle;
+package oop.polymorphism.vehicle;
 
 public class Bike extends Vehicle {
 

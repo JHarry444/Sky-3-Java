@@ -1,8 +1,8 @@
-package arrays.oop.polymorphism;
+package oop.polymorphism;
 
-import arrays.oop.inheritance.Cat;
-import arrays.oop.inheritance.Dog;
-import arrays.oop.inheritance.Pet;
+import oop.inheritance.Cat;
+import oop.inheritance.Dog;
+import oop.inheritance.Pet;
 
 import java.util.List;
 

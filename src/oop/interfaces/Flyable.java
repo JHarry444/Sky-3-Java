@@ -1,4 +1,4 @@
-package arrays.oop.interfaces;
+package oop.interfaces;
 
 public interface Flyable {
 

@@ -1,9 +1,9 @@
-package arrays.oop.interfaces;
+package oop.interfaces;
 
-import arrays.oop.inheritance.Cat;
-import arrays.oop.inheritance.Dog;
-import arrays.oop.inheritance.Pet;
-import arrays.oop.polymorphism.vehicle.Plane;
+import oop.inheritance.Cat;
+import oop.inheritance.Dog;
+import oop.inheritance.Pet;
+import oop.polymorphism.vehicle.Plane;
 
 import java.util.ArrayList;
 import java.util.Collections;

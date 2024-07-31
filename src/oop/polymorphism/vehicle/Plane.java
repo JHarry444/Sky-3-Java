@@ -1,6 +1,6 @@
-package arrays.oop.polymorphism.vehicle;
+package oop.polymorphism.vehicle;
 
-import arrays.oop.interfaces.Flyable;
+import oop.interfaces.Flyable;
 
 public class Plane extends Vehicle implements Flyable {
 

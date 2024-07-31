@@ -1,6 +1,6 @@
-package arrays.oop.interfaces;
+package oop.interfaces;
 
-import arrays.oop.inheritance.Pet;
+import oop.inheritance.Pet;
 
 public class Bird extends Pet implements Flyable{
 

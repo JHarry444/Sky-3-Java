@@ -1,6 +1,6 @@
-package arrays.oop.abstraction;
+package oop.abstraction;
 
-import arrays.oop.inheritance.Pet;
+import oop.inheritance.Pet;
 
 public class Runner {
 

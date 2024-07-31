@@ -1,9 +1,9 @@
-package arrays.oop.polymorphism;
+package oop.polymorphism;
 
-import arrays.oop.polymorphism.vehicle.Boat;
-import arrays.oop.polymorphism.vehicle.Car;
-import arrays.oop.polymorphism.vehicle.Plane;
-import arrays.oop.polymorphism.vehicle.Vehicle;
+import oop.polymorphism.vehicle.Boat;
+import oop.polymorphism.vehicle.Car;
+import oop.polymorphism.vehicle.Plane;
+import oop.polymorphism.vehicle.Vehicle;
 
 import java.util.ArrayList;
 import java.util.Arrays;

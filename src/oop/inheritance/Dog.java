@@ -1,30 +1,27 @@
-package arrays.oop.inheritance;
+package oop.inheritance;
 
-public class Cat extends Pet{
+public class Dog extends Pet{
 
-    public Cat() {
+
+    public Dog() {
         super();
-        this.setDiet("Carnivore");
+        this.setDiet("Omnivore");
         this.setNoOfLegs(4);
         this.setFur(true);
     }
 
-    public Cat(String name, Person owner, int noOfLegs, boolean fur, String diet) {
+    public Dog(String name, Person owner, int noOfLegs, boolean fur, String diet) {
         super(name, owner, noOfLegs, fur, diet);
     }
 
     @Override
     public void makeNoise() {
-        System.out.println("MEOW");
-    }
-
-    public void bask() {
-        System.out.println("so sunny");
+        System.out.println("BARK!");
     }
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Dog{" +
                 "name='" + this.getName() + '\'' +
                 ", owner=" + this.getOwner() +
                 ", noOfLegs=" + this.getNoOfLegs() +
