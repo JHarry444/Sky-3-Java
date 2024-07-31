@@ -11,20 +11,15 @@ public abstract class Vehicle {
 
 	public Vehicle(int numWheels, String colour) {
 		super();
+//		this.id = ?;
 		this.numWheels = numWheels;
 		this.colour = colour;
 	}
 
-	public int calcBill(){
-		return -1;
-	}
+	public abstract int calcBill();
 
 	public int getId() {
 		return this.id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
 	}
 
 	public int getNumWheels() {
@@ -48,4 +43,7 @@ public abstract class Vehicle {
 		return "Vehicle [numWheels=" + this.numWheels + ", colour=" + this.colour + "]";
 	}
 
+	public void setId(int id) {
+		this.id = id;
+	}
 }

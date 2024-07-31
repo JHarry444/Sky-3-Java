@@ -11,8 +11,7 @@ public class Runner {
         LocalDate date2 = LocalDate.of(2024, Month.APRIL, 29);
 
 
-        Game game = new Game();
 
-        for (int i = 0; i < 10; i++) game.flipCoin(CoinFlip.TAILS);
+        for (int i = 0; i < 10; i++) Game.flipCoin(CoinFlip.TAILS);
     }
 }

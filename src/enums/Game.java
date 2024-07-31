@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Game {
 
-    public boolean flipCoin(String call) {
+    public static boolean flipCoin(String call) {
 
         if (call == null || (!call.trim().equalsIgnoreCase("heads")
                 && !call.trim().equalsIgnoreCase("tails")
@@ -28,7 +28,7 @@ public class Game {
     }
 
 
-    public boolean flipCoin(CoinFlip call) {
+    public static boolean flipCoin(CoinFlip call) {
         CoinFlip actual = null;
         Random rand = new Random();
 

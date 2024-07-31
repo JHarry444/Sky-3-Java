@@ -1,6 +1,8 @@
 package arrays.oop.inheritance;
 
-public abstract class Pet extends Object{
+import java.io.Serializable;
+
+public abstract class  Pet extends Object  implements Comparable<Pet> {
 
 
     private String name;
@@ -62,6 +64,11 @@ public abstract class Pet extends Object{
 
     public void setDiet(String diet) {
         this.diet = diet;
+    }
+
+    @Override
+    public final int compareTo(Pet o) {
+        return this.name.compareTo(o.getName());
     }
 
     @Override
